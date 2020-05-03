@@ -5,25 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
-    <script
-      src="https://kit.fontawesome.com/0f9b4aa4e2.js"
-      crossorigin="anonymous"
-    ></script>
   </head>
   <body>
     <div class="container">
       <h2>Enter your morning weight</h2>
 
       <form class="form" onsubmit="return getWeight()">
-        <input
-          class="weight-input"
-          type="text"
-          placeholder="Weight in kg"
-        />
+        <input class="weight-input" type="text" placeholder="Weight in kg" />
         <button class="btn-submit" type="submit">
-          <i class="fas fa-plus"></i>
+          +
         </button>
       </form>
+
+      <div class="headings">
+        <div><p>Mon</p></div>
+        <div><p>Tue</p></div>
+        <div><p>Wed</p></div>
+        <div><p>Thu</p></div>
+        <div><p>Fri</p></div>
+        <div><p>Sat</p></div>
+        <div><p>Sun</p></div>
+      </div>
+
+      <ul class="week-container"></ul>
     </div>
 
     <script src="app.js"></script>

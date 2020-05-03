@@ -9,7 +9,7 @@ html {
 
 .container {
   margin: 5rem auto;
-  width: 400px;
+  width: 600px;
   padding: 20px;
   border-radius: 5px;
 
@@ -27,9 +27,41 @@ html {
   border-radius: 5px;
 }
 .btn-submit {
-    padding: 12px 20px;
-    margin: 8px 0;
-    border: 1px solid gray;
-  
-    border-radius: 5px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid gray;
+
+  border-radius: 5px;
+}
+.headings {
+    padding-left: 5px;
+
+  display: flex;
+  font-size: 12px;
+  width: 70%;
+  justify-content: flex-start;
+}
+.headings div {
+    margin-right: 42px;
+}
+
+.week-container {
+  margin-top: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 75%;
+
+  justify-content: flex-start;
+  text-align: center;
+}
+.week-container li {
+  margin: 1px;
+  list-style-type: none;
+  border: 1px solid grey;
+  padding: 20px;
+
+  width: 20px;
+  height: 20px;
 }
